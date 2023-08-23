@@ -1,0 +1,43 @@
+*{
+    margin: 0;  
+      padding: 0;
+      
+      }
+      header{
+     position: fixed;
+     top: 0;
+     left: 0%;
+     padding: 50px 10px;
+     width: 100%;
+     z-index: 1;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     transition: 0.5s;
+     background-color: rgb(227, 129, 17);
+      }
+      .nav-links{
+    color: #f6f1f1;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 12px;
+    
+    }
+      header .nav a:hover{
+        color: black;
+        border-bottom: #fdfafa;
+      }
+      button{
+        background-color: darkgreen;
+        border: 0;
+        border-radius: 30px;
+        color: #fdfafa;
+        width: 90px;
+        height: 40px;    
+        }
+      .contai{
+          background-image: url(DCLIC\ Mada.jpg);
+      }
+      img{
+          width: 150px;
+      }
